@@ -1,0 +1,72 @@
+2025-06-10 12:36:39 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.1.Final
+2025-06-10 12:36:39 [main] INFO  com.ecommerce.app.EcApplication - Starting EcApplication using Java 17.0.2 with PID 22076 (D:\ec\ec\target\classes started by SnehaVishwakarma in D:\ec)
+2025-06-10 12:36:39 [main] INFO  com.ecommerce.app.EcApplication - No active profile set, falling back to 1 default profile: "default"
+2025-06-10 12:36:40 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-06-10 12:36:40 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 106 ms. Found 6 JPA repository interfaces.
+2025-06-10 12:36:41 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8081 (http)
+2025-06-10 12:36:41 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+2025-06-10 12:36:41 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-06-10 12:36:41 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.20]
+2025-06-10 12:36:41 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-06-10 12:36:41 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2013 ms
+2025-06-10 12:36:41 [main] WARN  com.ecommerce.app.security.JwtUtils - JWT Secret Key not found in application.properties. Generating a random secure key.
+2025-06-10 12:36:41 [main] WARN  com.ecommerce.app.security.JwtUtils - Generated JWT Secret Key (for development/testing only): 4VrgBZ6IPmPvj3y/77aKWc+BInWaBfJ+KBbV7H4G3aY=
+2025-06-10 12:36:41 [main] INFO  com.ecommerce.app.security.JwtUtils - JWT Signing Key initialized.
+2025-06-10 12:36:41 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-06-10 12:36:41 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.4.4.Final
+2025-06-10 12:36:41 [main] INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2025-06-10 12:36:41 [main] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-06-10 12:36:41 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2025-06-10 12:36:42 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@5a0f87e5
+2025-06-10 12:36:42 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2025-06-10 12:36:42 [main] WARN  org.hibernate.orm.deprecation - HHH90000025: MySQL8Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-06-10 12:36:42 [main] WARN  org.hibernate.orm.deprecation - HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2025-06-10 12:36:43 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-06-10 12:36:43 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-06-10 12:36:43 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-06-10 12:36:44 [main] INFO  o.s.s.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@1cb7f2fe, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@5cb64b9c, org.springframework.security.web.context.SecurityContextHolderFilter@22195d06, org.springframework.security.web.header.HeaderWriterFilter@17d837ab, org.springframework.web.filter.CorsFilter@2c376461, org.springframework.security.web.authentication.logout.LogoutFilter@47462daf, com.ecommerce.app.security.JwtAuthFilter@5c1ea00, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@1e205025, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@c10f7a8, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@27244a88, org.springframework.security.web.session.SessionManagementFilter@25031fd4, org.springframework.security.web.access.ExceptionTranslationFilter@7b45f7ef, org.springframework.security.web.access.intercept.AuthorizationFilter@28dd038f]
+2025-06-10 12:36:44 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+2025-06-10 12:36:44 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8081 (http) with context path ''
+2025-06-10 12:36:44 [main] INFO  com.ecommerce.app.EcApplication - Started EcApplication in 6.11 seconds (process running for 6.68)
+2025-06-10 12:36:51 [http-nio-8081-exec-2] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-06-10 12:36:51 [http-nio-8081-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-06-10 12:36:51 [http-nio-8081-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2025-06-10 12:36:51 [http-nio-8081-exec-2] INFO  c.ecommerce.app.service.AuthService - Attempting to authenticate user: sneha
+2025-06-10 12:42:04 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-06-10 12:42:04 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2025-06-10 12:42:04 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2025-06-10 12:42:09 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.1.Final
+2025-06-10 12:42:09 [main] INFO  com.ecommerce.app.EcApplication - Starting EcApplication using Java 17.0.2 with PID 10812 (D:\ec\ec\target\classes started by SnehaVishwakarma in D:\ec)
+2025-06-10 12:42:09 [main] INFO  com.ecommerce.app.EcApplication - No active profile set, falling back to 1 default profile: "default"
+2025-06-10 12:42:10 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-06-10 12:42:10 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 95 ms. Found 6 JPA repository interfaces.
+2025-06-10 12:42:11 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8081 (http)
+2025-06-10 12:42:11 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+2025-06-10 12:42:11 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-06-10 12:42:11 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.20]
+2025-06-10 12:42:11 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-06-10 12:42:11 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1967 ms
+2025-06-10 12:42:11 [main] WARN  com.ecommerce.app.security.JwtUtils - JWT Secret Key not found in application.properties. Generating a random secure key.
+2025-06-10 12:42:11 [main] WARN  com.ecommerce.app.security.JwtUtils - Generated JWT Secret Key (for development/testing only): dWznXnPZLWur3eoarKAmdLAfm3z5FpNVSLnU9OK6l4A=
+2025-06-10 12:42:11 [main] INFO  com.ecommerce.app.security.JwtUtils - JWT Signing Key initialized.
+2025-06-10 12:42:11 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-06-10 12:42:11 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.4.4.Final
+2025-06-10 12:42:11 [main] INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2025-06-10 12:42:12 [main] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-06-10 12:42:12 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2025-06-10 12:42:12 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@243c4346
+2025-06-10 12:42:12 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2025-06-10 12:42:12 [main] WARN  org.hibernate.orm.deprecation - HHH90000025: MySQL8Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-06-10 12:42:12 [main] WARN  org.hibernate.orm.deprecation - HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2025-06-10 12:42:13 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-06-10 12:42:13 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-06-10 12:42:14 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-06-10 12:42:14 [main] INFO  o.s.s.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@7e8f97dd, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@183435c0, org.springframework.security.web.context.SecurityContextHolderFilter@6f53f5a4, org.springframework.security.web.header.HeaderWriterFilter@1f591b2e, org.springframework.web.filter.CorsFilter@69862a1, org.springframework.security.web.authentication.logout.LogoutFilter@5cb64b9c, com.ecommerce.app.security.JwtAuthFilter@356ab368, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@7d50b4c4, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@7860a014, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@585718dd, org.springframework.security.web.session.SessionManagementFilter@1c0a4f87, org.springframework.security.web.access.ExceptionTranslationFilter@35d4fecf, org.springframework.security.web.access.intercept.AuthorizationFilter@225890bc]
+2025-06-10 12:42:14 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+2025-06-10 12:42:14 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8081 (http) with context path ''
+2025-06-10 12:42:15 [main] INFO  com.ecommerce.app.EcApplication - Started EcApplication in 6.052 seconds (process running for 6.566)
+2025-06-10 12:42:18 [http-nio-8081-exec-2] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-06-10 12:42:18 [http-nio-8081-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-06-10 12:42:18 [http-nio-8081-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2025-06-10 12:42:18 [http-nio-8081-exec-2] INFO  c.ecommerce.app.service.AuthService - Attempting to authenticate user: sneha
+2025-06-10 12:42:50 [http-nio-8081-exec-3] INFO  c.ecommerce.app.service.AuthService - Attempting to authenticate user: admin
